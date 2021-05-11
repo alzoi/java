@@ -2,7 +2,8 @@
 // установить бесплатную версию jdk1.8u202 с сайта oracle.com или бесплатную https://www.azul.com/downloads/
 // прописать путь к jdk/bib/ в переменную PATCH
 // Компиляция
-// javac Hello.java
+// cd src/
+// javac hello/Hello.java
 // Запуск
 // java Hello
 // Просмотр байт кода
