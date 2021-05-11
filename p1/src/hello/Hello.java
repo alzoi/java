@@ -13,7 +13,7 @@
 // Для запуска нужно перейти в коревую папку, которая содержит пакеты 
 // cd ~/Desktop/java-proj/p1/src
 // java hello.Hello
-// или задать путь к папке с пакетами
+// или задать путь к папке с пакетами классов
 // java -cp ~/Desktop/java-proj/p1/src hello.Hello
 
 package hello;
