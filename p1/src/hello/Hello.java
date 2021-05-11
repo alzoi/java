@@ -47,4 +47,5 @@ public class Hello {
     System.out.println("Hello world " + pers.getName() + " " + prf.getName() + "!");
 
   }
+
 }
