@@ -20,11 +20,17 @@
 package hello;
 
 import person.Person;
+import person.prof.*;
 
 public class Hello {
   public static void main(String[] args) {
+
 	  Person pers = new Person();
     pers.setName("Java");
-    System.out.println("Hello world " + pers.getName() + "!");
+
+	  Prof prf = new Prof();
+    prf.setName("web");
+
+    System.out.println("Hello world " + pers.getName() + " " + prf.getName() + "!");
   }
 }
