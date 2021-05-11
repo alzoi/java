@@ -24,6 +24,10 @@
 // java -cp .:/d/java-prj/p1/classes/ hello.Hello
 // или
 // java -cp ./classes/ hello.Hello
+// можно компилировать главный класс пакета и все зависимости класса будут скомпилированы автоматически
+// cd p1/src/
+// javac -d ../classes/ ./hello/Hello.java
+// java -cp ../classes/ hello.Hello
 
 package hello;
 
