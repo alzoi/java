@@ -35,6 +35,7 @@ import person.Person;
 import person.prof.*;
 
 public class Hello {
+
   public static void main(String[] args) {
 
     Person pers = new Person();
