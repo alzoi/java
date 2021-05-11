@@ -23,14 +23,15 @@ import person.Person;
 import person.prof.*;
 
 public class Hello {
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		Person pers = new Person();
-		pers.setName("Java");
+    Person pers = new Person();
+    pers.setName("Java");
 
-		Prof prf = new Prof();
-		prf.setName("web");
+    Prof prf = new Prof();
+    prf.setName("web");
 
-		System.out.println("Hello world " + pers.getName() + " " + prf.getName() + "!");
-	}
+    System.out.println("Hello world " + pers.getName() + " " + prf.getName() + "!");
+
+  }
 }
