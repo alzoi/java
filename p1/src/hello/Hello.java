@@ -21,7 +21,7 @@
 // cd /d/java-prj/p1/
 // javac -d classes/ src/hello/Hello.java src/person/Person.java src/person/prof/Prof.java
 // Запуск с указанием папок с байт кодом пакетов, можно разелять двоеточием : (или ; для Windows)
-// java -cp ./classes/:/d/java-prj/p1/classes/ hello.Hello
+// java -cp .:/d/java-prj/p1/classes/ hello.Hello
 // или
 // java -cp ./classes/ hello.Hello
 
