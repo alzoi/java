@@ -17,9 +17,9 @@
 // или задать путь к папке с пакетами классов
 // java -cp ~/Desktop/java-proj/p1/src hello.Hello
 
-// Компиляция с размещением байт кода в папке p1/classes/
+// Компиляция с размещением байт кода в папке p1/classes/ и использования откомпилированных фрагментов из этой папки (опция -cp)
 // cd /d/java-prj/p1/
-// javac -d ./classes/ ./src/hello/Hello.java ./src/person/Person.java ./src/person/prof/Prof.java
+// javac -d ./classes/ -cp ./classes/ ./src/hello/Hello.java ./src/person/Person.java ./src/person/prof/Prof.java
 // Запуск с указанием папок с байт кодом пакетов, можно разелять двоеточием : (или ; для Windows)
 // java -cp .:/d/java-prj/p1/classes/ hello.Hello
 // или
